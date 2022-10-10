@@ -15,7 +15,7 @@ images=set()
 for x in X:
     #images.add(x*x-1)
     images.add(x2minusone(x))
-print(images)
+print('range =',images)
 
 print('f set ={',end='')
 for x in X:
