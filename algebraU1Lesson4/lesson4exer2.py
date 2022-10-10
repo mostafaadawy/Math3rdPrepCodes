@@ -8,7 +8,7 @@ from scipy.interpolate import make_interp_spline as intr
 #X=range(-5,12)
 X=np.array(range(-5,12))
 def fn(x):
-    return (-x)*x+6*x+50
+    return (-x)*x+6*x+7
 
 fx=[]
 plt.title("quadratic function")
